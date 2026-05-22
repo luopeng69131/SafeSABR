@@ -152,4 +152,4 @@ The paper citation will be added after the arXiv version is available.
 
 ## Release Status
 
-This is a research-preview repository prepared for paper promotion. The license will be finalized before the public release.
+This is a research-preview repository prepared for paper promotion. The code is released under the Apache-2.0 license.
