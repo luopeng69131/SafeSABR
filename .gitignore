@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Build outputs
+*.so
+*.dylib
+*.dll
+build/
+dist/
+
+# SafeSABR generated artifacts
+safesabr/experiment_logs/
+safesabr/model_data/
+safesabr/test_results/
+safesabr/Results_*.txt
+safesabr/video_trace/trace/starlink/**/*.trace
+
+# Data are intentionally not redistributed.
+data/
+
+# Local editor/system files
+.DS_Store
+*.swp
+*.swo
+

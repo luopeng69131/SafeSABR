@@ -1,0 +1,17 @@
+name: safesabr
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.23.5
+  - pandas
+  - matplotlib
+  - pybind11
+  - pip:
+      - gymnasium==1.0.0
+      - stable_baselines3==2.6.0
+      - torch==2.5.0
+      - tqdm==4.67.0
+      - tensorboard
