@@ -129,3 +129,7 @@ The paper evaluates SafeSABR by the QoE--severe-risk operating point rather than
 <p align="center">
   <img src="assets/qoe_severe_risk_tradeoff.png" alt="QoE severe-risk tradeoff" width="86%">
 </p>
+
+## Acknowledgements
+
+SafeSABR builds on the broader open-source ABR research ecosystem. We thank the authors of [Comyco-Lin](https://github.com/godka/comyco-lin) and [Pensieve Retrain](https://github.com/GreenLv/pensieve_retrain), whose public implementations were valuable references for ABR simulation, training, and evaluation workflows.

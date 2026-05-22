@@ -4,13 +4,15 @@ Copyright 2026 SafeSABR authors
 This repository contains the SafeSABR research code for risk-calibrated
 adaptive bitrate streaming over Starlink traces.
 
-Some ABR simulator components are adapted from open-source ABR research
-codebases, including Pensieve and Comyco-style simulation environments. Those
-projects are distributed under permissive open-source licenses. SafeSABR keeps
-the simulator lineage visible in source comments and uses the adapted
-components only as the ABR simulation substrate for the SafeSABR method.
+Some ABR simulator and training components are adapted from or inspired by
+open-source ABR research codebases, especially:
+
+- Comyco-Lin: https://github.com/godka/comyco-lin
+- Pensieve Retrain: https://github.com/GreenLv/pensieve_retrain
+
+SafeSABR keeps the simulator lineage visible in source comments and uses these
+components as the ABR simulation substrate for the SafeSABR method.
 
 StarNet data are not redistributed in this repository. Users should obtain
 StarNet from the official repository:
 https://github.com/ConnectedSystemsLab/StarNet
-
