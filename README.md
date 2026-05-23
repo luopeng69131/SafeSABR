@@ -1,5 +1,9 @@
 # SafeSABR
 
+<p align="right">
+  <a href="README_zh-CN.md">中文版本</a>
+</p>
+
 **Risk-calibrated adaptive bitrate streaming over Starlink networks.**
 
 SafeSABR is a learned adaptive bitrate (ABR) framework for high-bitrate video streaming over volatile Starlink access links. It targets a practical failure mode that is easy to miss with average QoE alone: a learned ABR policy may keep requesting aggressive high-bitrate chunks during handover-induced throughput drops, causing severe session-level rebuffering.
