@@ -1,14 +1,19 @@
 # SafeSABR
 
-<p align="right">
-  <a href="README_zh-CN.md">中文版本</a>
+<p align="center">
+  <strong>English</strong> | <a href="README_zh-CN.md">中文</a>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.23560"><img src="https://img.shields.io/badge/arXiv-2605.23560-b31b1b.svg" alt="arXiv"></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Framework-SafeSABR-2ca25f.svg" alt="SafeSABR">
+  <img src="https://img.shields.io/badge/Task-Starlink%20ABR-6a5acd.svg" alt="Starlink ABR">
 </p>
 
 **Risk-calibrated adaptive bitrate streaming over Starlink networks.**
 
 SafeSABR is a learned adaptive bitrate (ABR) framework for high-bitrate video streaming over volatile Starlink access links. It targets a practical failure mode that is easy to miss with average QoE alone: a learned ABR policy may keep requesting aggressive high-bitrate chunks during handover-induced throughput drops, causing severe session-level rebuffering.
-
-> Paper: [arXiv:2605.23560](https://arxiv.org/abs/2605.23560)
 
 <p align="center">
   <img src="assets/safesabr_overview.png" alt="SafeSABR overview" width="88%">

@@ -1,14 +1,19 @@
 # SafeSABR
 
-<p align="right">
-  <a href="README.md">English</a>
+<p align="center">
+  <a href="README.md">English</a> | <strong>中文</strong>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.23560"><img src="https://img.shields.io/badge/arXiv-2605.23560-b31b1b.svg" alt="arXiv"></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Framework-SafeSABR-2ca25f.svg" alt="SafeSABR">
+  <img src="https://img.shields.io/badge/Task-Starlink%20ABR-6a5acd.svg" alt="Starlink ABR">
 </p>
 
 **面向 Starlink 网络的风险校准自适应码率流媒体传输。**
 
 SafeSABR 是一个面向 Starlink 高码率视频流的学习型自适应码率（Adaptive Bitrate, ABR）框架。它关注一个仅靠平均 QoE 很容易被忽略的问题：在 Starlink 切换和吞吐骤降期间，学习型 ABR 策略可能仍然持续请求激进的高码率视频块，进而导致严重的会话级卡顿。
-
-> 论文：[arXiv:2605.23560](https://arxiv.org/abs/2605.23560)
 
 <p align="center">
   <img src="assets/safesabr_overview.png" alt="SafeSABR overview" width="88%">
