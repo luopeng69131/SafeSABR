@@ -8,7 +8,7 @@
 
 SafeSABR 是一个面向 Starlink 高码率视频流的学习型自适应码率（Adaptive Bitrate, ABR）框架。它关注一个仅靠平均 QoE 很容易被忽略的问题：在 Starlink 切换和吞吐骤降期间，学习型 ABR 策略可能仍然持续请求激进的高码率视频块，进而导致严重的会话级卡顿。
 
-> 论文：arXiv 链接后续更新。
+> 论文：[arXiv:2605.23560](https://arxiv.org/abs/2605.23560)
 
 <p align="center">
   <img src="assets/safesabr_overview.png" alt="SafeSABR overview" width="88%">
@@ -133,6 +133,22 @@ python evaluate_action_shield.py \
 <p align="center">
   <img src="assets/qoe_severe_risk_tradeoff.png" alt="QoE severe-risk tradeoff" width="86%">
 </p>
+
+## 引用
+
+如果 SafeSABR 对你的研究有帮助，欢迎引用：
+
+```bibtex
+@misc{xie2026safesabrriskcalibratedadaptivebitrate,
+      title={SafeSABR: Risk-Calibrated Adaptive Bitrate Streaming over Starlink Networks}, 
+      author={Hongjun Xie and Jiahang Zhu and Zhiming Shao and Chao Fan and Zenghui Zhang and Genke Yang and Pengcheng Luo},
+      year={2026},
+      eprint={2605.23560},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY},
+      url={https://arxiv.org/abs/2605.23560}, 
+}
+```
 
 ## 致谢
 
